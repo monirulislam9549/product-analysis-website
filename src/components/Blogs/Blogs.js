@@ -1,9 +1,10 @@
 import React from 'react';
 import { Accordion } from 'react-bootstrap';
+import './Blogs.css'
 
 const Blogs = () => {
     return (
-        <div className=''>
+        <div className='accordion-center'>
             <Accordion defaultActiveKey="0">
                 <Accordion.Item eventKey="0">
                     <Accordion.Header>What is Context API?</Accordion.Header>
@@ -24,7 +25,6 @@ const Blogs = () => {
                         <p>The element doesn't start on a new line and only occupy just the width it requires. You can't set the width or height.</p>
                         <h2>Inline Block Element</h2>
                         <p> It's formatted just like the inline element, where it doesn't start on a new line. BUT, you can set width and height values.</p>
-
                     </Accordion.Body>
                 </Accordion.Item>
             </Accordion>
