@@ -1,0 +1,28 @@
+.keyboard-text {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.keyboard-text img {
+    margin-top: 20px;
+}
+
+.detail-btn {
+    border: none;
+    background-color: bisque;
+    font-size: 20px;
+    padding: 15px 32px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.detail-btn:hover {
+    background-color: blue;
+}
+
+.text {
+    font-size: large;
+    margin-top: 100px;
+
+}
